@@ -2,6 +2,8 @@
     "name": "vscode-testscript",
     "displayName": "vscode-testscript",
     "description": "testscript support for Visual Studio Code",
+    "repository": "https://github.com/twpayne/vscode-testscript",
+    "publisher": "twpayne",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.62.0"
