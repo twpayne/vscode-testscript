@@ -171,6 +171,66 @@
 					]
 				},
 				{
+					"begin": "^-- (\\S+\\.pl) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.perl",
+					"patterns": [
+						{
+							"include": "source.perl"
+						}
+					]
+				},
+				{
+					"begin": "^-- (\\S+\\.ps1) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.powershell",
+					"patterns": [
+						{
+							"include": "source.powershell"
+						}
+					]
+				},
+				{
+					"begin": "^-- (\\S+\\.py) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.python",
+					"patterns": [
+						{
+							"include": "source.python"
+						}
+					]
+				},
+				{
+					"begin": "^-- (\\S+\\.rb) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.ruby",
+					"patterns": [
+						{
+							"include": "source.ruby"
+						}
+					]
+				},
+				{
 					"begin": "^-- (\\S+\\.txt) --$",
 					"beginCaptures": {
 						"1": {

@@ -26,6 +26,10 @@ None.
 
 ## Release Notes
 
+### 0.0.2
+
+* Syntax highlight more embedded files.
+
 ### 0.0.1
 
 * Initial release.

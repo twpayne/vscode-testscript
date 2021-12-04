@@ -4,7 +4,7 @@
     "description": "testscript support for Visual Studio Code",
     "repository": "https://github.com/twpayne/vscode-testscript",
     "publisher": "twpayne",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -29,8 +29,11 @@
                 "meta.embedded.block.go-template": "go-template",
                 "meta.embedded.block.html": "html",
                 "meta.embedded.block.json": "json",
+                "meta.embedded.block.perl": "perl",
                 "meta.embedded.block.plaintext": "plaintext",
                 "meta.embedded.block.powershell": "powershell",
+                "meta.embedded.block.python": "python",
+                "meta.embedded.block.ruby": "ruby",
                 "meta.embedded.block.shellscript": "shellscript",
                 "meta.embedded.block.toml": "toml",
                 "meta.embedded.block.yaml": "yaml"
