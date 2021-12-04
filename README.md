@@ -3,6 +3,9 @@
 This VS Code extension provides syntax highlighting support for
 [testscript](https://pkg.go.dev/github.com/rogpeppe/go-internal/testscript).
 
+Install it from the [Visual Studio Code
+Marketplace](https://marketplace.visualstudio.com/items?itemName=twpayne.vscode-testscript).
+
 ## Features
 
 * Syntax highlighting for testscript scripts.
