@@ -19,7 +19,20 @@
         "grammars": [{
             "language": "testscript",
             "scopeName": "source.testscript",
-            "path": "./syntaxes/testscript.tmLanguage.json"
+            "path": "./syntaxes/testscript.tmLanguage.json",
+            "embeddedLanguages": {
+                "meta.embedded.block.bat": "bat",
+                "meta.embedded.block.diff": "diff",
+                "meta.embedded.block.go": "go",
+                "meta.embedded.block.go-template": "go-template",
+                "meta.embedded.block.html": "html",
+                "meta.embedded.block.json": "json",
+                "meta.embedded.block.plaintext": "plaintext",
+                "meta.embedded.block.powershell": "powershell",
+                "meta.embedded.block.shellscript": "shellscript",
+                "meta.embedded.block.toml": "toml",
+                "meta.embedded.block.yaml": "yaml"
+            }
         }]
     }
 }
