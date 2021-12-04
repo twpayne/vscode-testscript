@@ -1,0 +1,25 @@
+{
+    "name": "vscode-testscript",
+    "displayName": "vscode-testscript",
+    "description": "testscript support for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "testscript",
+            "aliases": ["testscript", "testscript"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "testscript",
+            "scopeName": "source.testscript",
+            "path": "./syntaxes/testscript.tmLanguage.json"
+        }]
+    }
+}
