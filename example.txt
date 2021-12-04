@@ -1,0 +1,19 @@
+[!exec:go] skip 'go not found in $PATH'
+
+# hello world
+env FILENAME=main.go
+exec go run $FILENAME
+stdout 'Hello, world!\n'
+! stderr .
+
+-- main.go --
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world!")
+}
+-- example.yaml --
+config:
+    key: "value"
