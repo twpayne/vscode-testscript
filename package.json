@@ -4,7 +4,7 @@
     "description": "testscript support for Visual Studio Code",
     "repository": "https://github.com/twpayne/vscode-testscript",
     "publisher": "twpayne",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -12,35 +12,42 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "testscript",
-            "aliases": ["testscript", "testscript"],
-            "extensions": [
-                ".txt",
-                ".txtar"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "testscript",
-            "scopeName": "source.testscript",
-            "path": "./syntaxes/testscript.tmLanguage.json",
-            "embeddedLanguages": {
-                "meta.embedded.block.bat": "bat",
-                "meta.embedded.block.diff": "diff",
-                "meta.embedded.block.go": "go",
-                "meta.embedded.block.go-template": "go-template",
-                "meta.embedded.block.html": "html",
-                "meta.embedded.block.json": "json",
-                "meta.embedded.block.perl": "perl",
-                "meta.embedded.block.plaintext": "plaintext",
-                "meta.embedded.block.powershell": "powershell",
-                "meta.embedded.block.python": "python",
-                "meta.embedded.block.ruby": "ruby",
-                "meta.embedded.block.shellscript": "shellscript",
-                "meta.embedded.block.toml": "toml",
-                "meta.embedded.block.yaml": "yaml"
+        "languages": [
+            {
+                "id": "testscript",
+                "aliases": [
+                    "testscript",
+                    "testscript"
+                ],
+                "extensions": [
+                    ".txt",
+                    ".txtar"
+                ],
+                "configuration": "./language-configuration.json"
             }
-        }]
+        ],
+        "grammars": [
+            {
+                "language": "testscript",
+                "scopeName": "source.testscript",
+                "path": "./syntaxes/testscript.tmLanguage.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.bat": "bat",
+                    "meta.embedded.block.diff": "diff",
+                    "meta.embedded.block.go": "go",
+                    "meta.embedded.block.go-template": "go-template",
+                    "meta.embedded.block.html": "html",
+                    "meta.embedded.block.json": "json",
+                    "meta.embedded.block.perl": "perl",
+                    "meta.embedded.block.plaintext": "plaintext",
+                    "meta.embedded.block.powershell": "powershell",
+                    "meta.embedded.block.python": "python",
+                    "meta.embedded.block.ruby": "ruby",
+                    "meta.embedded.block.shellscript": "shellscript",
+                    "meta.embedded.block.toml": "toml",
+                    "meta.embedded.block.yaml": "yaml"
+                }
+            }
+        ]
     }
 }
