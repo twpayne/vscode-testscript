@@ -15,7 +15,10 @@
         "languages": [{
             "id": "testscript",
             "aliases": ["testscript", "testscript"],
-            "extensions": [".txt"],
+            "extensions": [
+                ".txt",
+                ".txtar"
+            ],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
