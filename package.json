@@ -20,7 +20,6 @@
                     "testscript"
                 ],
                 "extensions": [
-                    ".txt",
                     ".txtar"
                 ],
                 "configuration": "./language-configuration.json"
