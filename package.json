@@ -15,10 +15,6 @@
         "languages": [
             {
                 "id": "testscript",
-                "aliases": [
-                    "testscript",
-                    "testscript"
-                ],
                 "extensions": [
                     ".txtar"
                 ],
