@@ -1,0 +1,56 @@
+exec echo "Hello, world!"
+stdout 'Hello, world!'
+
+-- hello.bat --
+echo "Hello, world!"
+-- hello.diff --
+--- a   2023-09-14 19:49:21
++++ b   2023-09-14 19:49:29
+@@ -1 +1 @@
+-Hello
++World!
+-- hello.go --
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world!")
+}
+-- hello.tmpl --
+{{ "Hello, world!" }}
+-- hello.html --
+<h1>Hello, world!</h1>
+-- hello.json --
+{"message": "Hello, world!"}
+-- hello.pl --
+#!/usr/bin/perl
+
+print "Hello, world!\n";
+-- hello.txt --
+Hello, world!
+-- hello.ps1 --
+Write-Host 'Hello, world!'
+-- hello.proto --
+syntax = "proto3";
+
+message Message {
+    string hello = 1;
+    string world = 2;
+}
+-- hello.py --
+#!/usr/bin/python3
+
+print("Hello, world!")
+-- hello.rb --
+#!/usr/bin/ruby
+
+print "Hello, world!"
+-- hello.sh --
+#!/bin/sh
+
+echo "Hello, world!"
+-- hello.toml --
+message = "Hello, world!"
+-- hello.yaml --
+message: "Hello, world!"
