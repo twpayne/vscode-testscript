@@ -36,6 +36,7 @@
                     "meta.embedded.block.perl": "perl",
                     "meta.embedded.block.plaintext": "plaintext",
                     "meta.embedded.block.powershell": "powershell",
+                    "meta.embedded.block.proto": "proto",
                     "meta.embedded.block.python": "python",
                     "meta.embedded.block.ruby": "ruby",
                     "meta.embedded.block.shellscript": "shellscript",

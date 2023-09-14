@@ -186,6 +186,21 @@
 					]
 				},
 				{
+					"begin": "^-- (\\S+\\.proto) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.proto",
+					"patterns": [
+						{
+							"include": "source.proto"
+						}
+					]
+				},
+				{
 					"begin": "^-- (\\S+\\.ps1) --$",
 					"beginCaptures": {
 						"1": {
