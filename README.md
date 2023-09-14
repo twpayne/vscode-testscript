@@ -26,6 +26,15 @@ None.
 
 ## Release Notes
 
+### 0.0.4
+
+* Syntax highlight embedded Protobuf files.
+* Don't syntax highlight `.txt` files.
+
+### 0.0.3
+
+* Syntax highlight `.txtar` files.
+
 ### 0.0.2
 
 * Syntax highlight more embedded files.
