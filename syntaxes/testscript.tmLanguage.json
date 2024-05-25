@@ -263,7 +263,12 @@
 						}
 					},
 					"end": "(?=^--|\\z)",
-					"contentName": "meta.embedded.block.go-template"
+					"contentName": "meta.embedded.block.go-template",
+					"patterns": [
+						{
+							"include": "source.go-template"
+						}
+					]
 				},
 				{
 					"begin": "^-- (\\S+\\.yaml) --$",
