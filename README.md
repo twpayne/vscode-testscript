@@ -9,7 +9,7 @@ Marketplace](https://marketplace.visualstudio.com/items?itemName=twpayne.vscode-
 ## Features
 
 * Syntax highlighting for testscript scripts.
-* Syntax highlighting for embdeded supporting files.
+* Syntax highlighting for embedded supporting files.
 
 ## Requirements
 
@@ -25,6 +25,10 @@ None.
   txtar markers are not recognized.
 
 ## Release Notes
+
+### 0.0.5
+
+* Syntax highlight embedded Go templates.
 
 ### 0.0.4
 
