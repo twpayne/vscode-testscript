@@ -171,6 +171,21 @@
 					]
 				},
 				{
+					"begin": "^-- (\\S+\\.md) --$",
+					"beginCaptures": {
+						"1": {
+							"name": "entity.name.section.testscript"
+						}
+					},
+					"end": "(?=^--|\\z)",
+					"contentName": "meta.embedded.block.markdown",
+					"patterns": [
+						{
+							"include": "text.html.markdown"
+						}
+					]
+				},
+				{
 					"begin": "^-- (\\S+\\.pl) --$",
 					"beginCaptures": {
 						"1": {

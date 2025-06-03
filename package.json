@@ -33,6 +33,7 @@
                     "meta.embedded.block.go-template": "go-template",
                     "meta.embedded.block.html": "html",
                     "meta.embedded.block.json": "json",
+                    "meta.embedded.block.markdown": "markdown",
                     "meta.embedded.block.perl": "perl",
                     "meta.embedded.block.plaintext": "plaintext",
                     "meta.embedded.block.powershell": "powershell",
