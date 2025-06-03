@@ -26,6 +26,10 @@ None.
 
 ## Release Notes
 
+### 0.0.6
+
+* Syntax highlight embedded Markdown files.
+
 ### 0.0.5
 
 * Syntax highlight embedded Go templates.
