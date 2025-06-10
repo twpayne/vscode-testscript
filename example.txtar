@@ -31,6 +31,24 @@ print "Hello, world!\n";
 Hello, world!
 -- hello.ps1 --
 Write-Host 'Hello, world!'
+-- hello.md --
+# Bar
+Baz Bar
+
+## Foo
+
+* **Bold**
+* _Italic_
+* ***Bold and italic***
+
+[x] a
+[ ] b
+[x] c
+
+1. Item 1
+2. Item 2
+
+> Lorem Ipsum
 -- hello.proto --
 syntax = "proto3";
 
