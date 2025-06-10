@@ -19,11 +19,6 @@ None.
 
 None.
 
-## Known Issues
-
-* Syntax highlighting of embedded supporting files is fragile and occasionally
-  txtar markers are not recognized.
-
 ## Release Notes
 
 ### 0.0.6
