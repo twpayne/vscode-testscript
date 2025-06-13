@@ -5,6 +5,10 @@
     "repository": "https://github.com/twpayne/vscode-testscript",
     "publisher": "twpayne",
     "version": "0.0.6",
+    "main": "./extension.js",
+    "activationEvents": [
+        "onLanguage:testscript"
+    ],
     "engines": {
         "vscode": "^1.62.0"
     },
