@@ -4,7 +4,7 @@
     "description": "testscript support for Visual Studio Code",
     "repository": "https://github.com/twpayne/vscode-testscript",
     "publisher": "twpayne",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "./extension.js",
     "activationEvents": [
         "onLanguage:testscript"

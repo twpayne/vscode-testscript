@@ -21,6 +21,10 @@ None.
 
 ## Release Notes
 
+### 0.0.7
+
+* Add format on save for embedded Go files.
+
 ### 0.0.6
 
 * Syntax highlight embedded Markdown files.
